@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cor de fundo</title>
+    <link rel="stylesheet" href="/css/estilo_geral.css">
+    <style>
+        .texto-simples{
+            color:brown;
+        }
+        #texto-complexo{
+            color: rgb(255,0,0);
+        }
+        .texto-translucido{
+            color: rgba(0, 0, 255, 0.3);
+        }
+
+        .back-simples{
+            background-color: #00ffff;
+            border-radius: 15px;
+        }
+
+        .back-translucido {
+            background-color: rgba(0, 255, 0, 0.3);
+        }
+
+
+        .back-imagem-unica{
+            background-image: url('/imgens/css.png');
+            background-repeat: no-repeat;
+        }
+
+        .posicao-especifica{
+            background-position: bottom right;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Cores e Back</h1>
     <hr>
-    
+<ul class="back-simples">
+    Cores de Texto
+    <li class="texto-simples">Simples</li>
+    <li id="texto-complexo" class="back-translucido">Complexo</li>
+    <li class="texto-translucido">Translucido</li>
+
+    <hr>
+    <div class="back-imagem-unica posicao-especifica">
+        texto generico 2
+        <br><br><br><br>
+    </div>
+</ul>
 </body>
 </html>
