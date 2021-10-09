@@ -53,3 +53,7 @@
 div{
     text-align: center;
 }
+
+.teste {
+    background-image: linear-gradient(black, white);
+}
