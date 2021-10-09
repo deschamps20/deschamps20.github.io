@@ -26,3 +26,30 @@
 .posicao-especifica{
     background-position: bottom right;
 }
+
+.box{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 50%;
+    height: 50%;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+#back-imagens-multiplas{
+    background-image: url('/imgens/css_1.png'), url('/imgens/css.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+#back-imagens-hp {
+    background-image: url('/img hp/griffindor.jpg'), url('/img hp/sonserina.png'), url('/img hp/lufalufa.png'), url('/img hp/cornival.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 64px,64px,64px,64px;
+    background-position: top left, top right, bottom left, bottom right ;
+}
+
+div{
+    text-align: center;
+}
